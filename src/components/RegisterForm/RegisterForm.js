@@ -4,8 +4,8 @@ import { register } from 'redux/auth/operations';
 export const RegisterForm = () => {
   const dispath = useDispatch();
   const handleSubmit = (values, { resetForm }) => {
-    resetForm();
     dispath(register(values));
+    resetForm();
   };
   return (
     <div>
