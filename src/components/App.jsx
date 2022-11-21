@@ -21,12 +21,12 @@ const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login'));
 const ContastsPage = lazy(() => import('../pages/Contacts'));
 export const App = () => {
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
   const { isRefreshing } = useAuth();
 
   useEffect(() => {
-    dispath(refreshUser());
-  }, [dispath]);
+    dispatch(refreshUser());
+  }, [dispatch]);
   return isRefreshing ? (
     <b>Refreshing user...</b>
   ) : (

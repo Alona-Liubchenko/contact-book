@@ -2,9 +2,9 @@ import { Formik, Form, Field } from 'formik';
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 export const LoginForm = () => {
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
   const handleSubmit = ({ email, password }, { resetForm }) => {
-    dispath(logIn({ email, password }));
+    dispatch(logIn({ email, password }));
     resetForm();
   };
   return (

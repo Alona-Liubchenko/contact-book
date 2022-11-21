@@ -3,13 +3,15 @@ import { useAuth } from 'hooks';
 import { logOut } from 'redux/auth/operations';
 
 export const UserMenu = () => {
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
   const { user } = useAuth();
-  const handleSubmit = dispath(logOut());
+  const handleLogOut = () => dispatch(logOut());
+
   return (
     <div>
       <p>Welcome, {user.name}</p>
-      <button type="button" onClick={handleSubmit}>
+
+      <button type="button" onClick={handleLogOut}>
         Logout
       </button>
     </div>

@@ -8,9 +8,9 @@ const ContactList = () => {
   const contacts = useSelector(selectVisibleFilter);
   return (
     <List>
-      {contacts.map(({ id, name, phone }) => (
+      {contacts.map(({ id, name, number }) => (
         <li key={id}>
-          <ContactListItem id={id} name={name} number={phone} />
+          <ContactListItem id={id} name={name} number={number} />
         </li>
       ))}
     </List>

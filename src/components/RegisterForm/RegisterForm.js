@@ -2,9 +2,9 @@ import { useDispatch } from 'react-redux';
 import { Formik, Form, Field } from 'formik';
 import { register } from 'redux/auth/operations';
 export const RegisterForm = () => {
-  const dispath = useDispatch();
+  const dispatch = useDispatch();
   const handleSubmit = (values, { resetForm }) => {
-    dispath(
+    dispatch(
       register({
         name: values.name,
         email: values.email,
