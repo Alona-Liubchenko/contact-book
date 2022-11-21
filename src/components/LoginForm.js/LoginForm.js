@@ -1,6 +1,8 @@
-import { Formik, Form, Field } from 'formik';
+import { Formik } from 'formik';
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
+import { Forma, Input, Btn, Label } from './LoginForm.styled';
+
 export const LoginForm = () => {
   const dispatch = useDispatch();
   const handleSubmit = ({ email, password }, { resetForm }) => {
@@ -13,17 +15,17 @@ export const LoginForm = () => {
         initialValues={{ email: '', password: '' }}
         onSubmit={handleSubmit}
       >
-        <Form autoComplete="off">
-          <label htmlFor="email">
+        <Forma autoComplete="off">
+          <Label htmlFor="email">
             Email
-            <Field type="email" name="email" />
-          </label>
-          <label htmlFor="password">
+            <Input type="email" name="email" />
+          </Label>
+          <Label htmlFor="password">
             Password
-            <Field type="password" name="password" />
-          </label>
-          <button type="submit">Log In</button>
-        </Form>
+            <Input type="password" name="password" />
+          </Label>
+          <Btn type="submit">Log In</Btn>
+        </Forma>
       </Formik>
     </div>
   );

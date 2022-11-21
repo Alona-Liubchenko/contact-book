@@ -1,12 +1,3 @@
-// import { ContactForms } from './ContactForm/ContactForm';
-// import ContactList from './ContactList/ContactList';
-// import Filter from './Filter/Filter';
-// import { Box, Title, Heading } from './App.styled';
-// import { useEffect } from 'react';
-// import { selectIsLoading, selectError } from 'redux/selectors';
-// import { useDispatch, useSelector } from 'react-redux';
-// import { fetchContacts } from 'redux/operations';
-
 import { lazy, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { PrivateRoute } from './PrivateRoute';
@@ -30,31 +21,34 @@ export const App = () => {
   return isRefreshing ? (
     <b>Refreshing user...</b>
   ) : (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route
-          path="/register"
-          element={
-            <RestrictedRoute
-              redirectTo="/contacts"
-              component={<RegisterPage />}
-            />
-          }
-        />
-        <Route
-          path="/login"
-          element={
-            <RestrictedRoute redirectTo="/contacts" component={<LoginPage />} />
-          }
-        />
-        <Route
-          path="/contacts"
-          element={
-            <PrivateRoute redirectTo="/login" component={<ContastsPage />} />
-          }
-        />
-      </Route>
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route
+            path="/register"
+            element={
+              <RestrictedRoute
+                redirectTo="/contacts"
+                component={<RegisterPage />}
+              />
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <RestrictedRoute
+                redirectTo="/contacts"
+                component={<LoginPage />}
+              />
+            }
+          />
+          <Route
+            path="/contacts"
+            element={
+              <PrivateRoute redirectTo="/login" component={<ContastsPage />} />
+            }
+          />
+        </Route>
+      </Routes>
   );
 };

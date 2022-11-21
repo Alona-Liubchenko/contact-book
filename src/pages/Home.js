@@ -1,7 +1,8 @@
+import { Text } from './Home.styled';
 export default function Home() {
   return (
     <div>
-      <h1> Contact manager welcome page{''}</h1>
+      <Text> Your contacts manager </Text>
     </div>
   );
 }
