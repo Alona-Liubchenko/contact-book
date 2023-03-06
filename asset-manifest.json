@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.5b71d272.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.a1729da9.js",
-    "static/js/688.8b08e03e.chunk.js": "/goit-react-hw-08-phonebook/static/js/688.8b08e03e.chunk.js",
-    "static/js/854.90008198.chunk.js": "/goit-react-hw-08-phonebook/static/js/854.90008198.chunk.js",
-    "static/js/324.85f2632f.chunk.js": "/goit-react-hw-08-phonebook/static/js/324.85f2632f.chunk.js",
-    "static/js/385.4c7bc29b.chunk.js": "/goit-react-hw-08-phonebook/static/js/385.4c7bc29b.chunk.js",
-    "static/js/705.34c10a8a.chunk.js": "/goit-react-hw-08-phonebook/static/js/705.34c10a8a.chunk.js",
-    "static/js/270.b3c382c1.chunk.js": "/goit-react-hw-08-phonebook/static/js/270.b3c382c1.chunk.js",
-    "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.5b71d272.css.map": "/goit-react-hw-08-phonebook/static/css/main.5b71d272.css.map",
-    "main.a1729da9.js.map": "/goit-react-hw-08-phonebook/static/js/main.a1729da9.js.map",
-    "688.8b08e03e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/688.8b08e03e.chunk.js.map",
-    "854.90008198.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/854.90008198.chunk.js.map",
-    "324.85f2632f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/324.85f2632f.chunk.js.map",
-    "385.4c7bc29b.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/385.4c7bc29b.chunk.js.map",
-    "705.34c10a8a.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/705.34c10a8a.chunk.js.map",
-    "270.b3c382c1.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/270.b3c382c1.chunk.js.map"
+    "main.css": "//alona-liubchenko.github.io/webStudio/static/css/main.5b71d272.css",
+    "main.js": "//alona-liubchenko.github.io/webStudio/static/js/main.20aaced8.js",
+    "static/js/688.8b08e03e.chunk.js": "//alona-liubchenko.github.io/webStudio/static/js/688.8b08e03e.chunk.js",
+    "static/js/854.90008198.chunk.js": "//alona-liubchenko.github.io/webStudio/static/js/854.90008198.chunk.js",
+    "static/js/324.85f2632f.chunk.js": "//alona-liubchenko.github.io/webStudio/static/js/324.85f2632f.chunk.js",
+    "static/js/385.4c7bc29b.chunk.js": "//alona-liubchenko.github.io/webStudio/static/js/385.4c7bc29b.chunk.js",
+    "static/js/705.34c10a8a.chunk.js": "//alona-liubchenko.github.io/webStudio/static/js/705.34c10a8a.chunk.js",
+    "static/js/270.b3c382c1.chunk.js": "//alona-liubchenko.github.io/webStudio/static/js/270.b3c382c1.chunk.js",
+    "index.html": "//alona-liubchenko.github.io/webStudio/index.html",
+    "main.5b71d272.css.map": "//alona-liubchenko.github.io/webStudio/static/css/main.5b71d272.css.map",
+    "main.20aaced8.js.map": "//alona-liubchenko.github.io/webStudio/static/js/main.20aaced8.js.map",
+    "688.8b08e03e.chunk.js.map": "//alona-liubchenko.github.io/webStudio/static/js/688.8b08e03e.chunk.js.map",
+    "854.90008198.chunk.js.map": "//alona-liubchenko.github.io/webStudio/static/js/854.90008198.chunk.js.map",
+    "324.85f2632f.chunk.js.map": "//alona-liubchenko.github.io/webStudio/static/js/324.85f2632f.chunk.js.map",
+    "385.4c7bc29b.chunk.js.map": "//alona-liubchenko.github.io/webStudio/static/js/385.4c7bc29b.chunk.js.map",
+    "705.34c10a8a.chunk.js.map": "//alona-liubchenko.github.io/webStudio/static/js/705.34c10a8a.chunk.js.map",
+    "270.b3c382c1.chunk.js.map": "//alona-liubchenko.github.io/webStudio/static/js/270.b3c382c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b71d272.css",
-    "static/js/main.a1729da9.js"
+    "static/js/main.20aaced8.js"
   ]
 }
